@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-30T23:51:00Z" product-name="news_pages">
+		<header/>
+		<body>
+			<trans-unit id="pages.doktype.50">
+				<source>News</source>
+			</trans-unit>
+			<trans-unit id="pages.news_teaser">
+				<source>News Teaser</source>
+			</trans-unit>
+			<trans-unit id="pages.news_preview_image">
+				<source>News Preview Image</source>
+			</trans-unit>
+			<trans-unit id="pages.news_top_news">
+				<source>Top news</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.list_type.newspages_newslist">
+				<source>News list</source>
+			</trans-unit>
+
+			<trans-unit id="layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="number_of_elements">
+				<source>Number of elements</source>
+			</trans-unit>
+			<trans-unit id="top_news_only">
+				<source>Top news only</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,16 @@
+
+plugin.tx_newspages {
+	view {
+		templateRootPath = EXT:news_pages/Resources/Private/Templates/
+		partialRootPath = EXT:news_pages/Resources/Private/Partials/
+		layoutRootPath = EXT:news_pages/Resources/Private/Layouts/
+	}
+
+	persistence {
+		storagePid = 81
+		recursive = 99
+	}
+
+	pages.list = 1
+}
+

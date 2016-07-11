@@ -1,0 +1,6 @@
+
+<div class="newspages-list newspages-list-{settings.layout}">
+	<f:for each="{newsItems}" as="newsItem">
+		<f:render partial="NewsItem/ListItem-{settings.layout}" arguments="{newsItem: newsItem}" />
+	</f:for>
+</div>

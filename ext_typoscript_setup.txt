@@ -1,0 +1,19 @@
+
+config.tx_extbase {
+	persistence {
+		classes {
+			HannesLau\NewsPages\Domain\Model\NewsItem {
+				mapping {
+					tableName = pages
+					recordType = 50
+
+					columns {
+						news_top_news.mapOnProperty = topNews
+						news_preview_image.mapOnProperty = previewImage
+						news_teaser.mapOnProperty = teaser
+					}
+				}
+			}
+		}
+	}
+}
